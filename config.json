@@ -1,0 +1,55 @@
+{
+    "mqtt": {
+        "username": "",
+        "password": "",
+        "host": "0.0.0.0",
+        "port": 9002,
+        "topic": "sensors"
+    },
+    "misc": {
+        "interval_ms": 1000,
+        "verbose": true
+    },
+    "sensors": {
+        "Sensor 1": {
+            "lat": 10,
+            "lng": 10,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Compressor"
+        },
+        "Sensor 2": {
+            "lat": 90,
+            "lng": 90,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Fan"
+        },
+        "Sensor 3": {
+            "lat": 90,
+            "lng": 10,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Turbine Driver"
+        },
+        "Sensor 4": {
+            "lat": 10,
+            "lng": 90,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Exchanger"
+        },
+        "Sensor 5": {
+            "lat": 50,
+            "lng": 50,
+            "unit": "C",
+            "type": "temperature",
+            "range": [0, 45],
+            "description": "Motor1"
+        }
+    }
+}
