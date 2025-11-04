@@ -1,4 +1,4 @@
-### MQTT Pub/Sub Demo ###
+# MQTT Pub/Sub Demo 
 
 1. Deploy the paulc-MQTT application on GMWTUS
 2. Record the IP address
@@ -11,6 +11,6 @@
 
 The python script is leveraging paho-mqtt https://pypi.org/project/paho-mqtt/#installation
 
-Prerequisites
-
+## Prerequisites
+---
 pip install paho-mqtt
