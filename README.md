@@ -1,4 +1,4 @@
-### MQTT Pub/Sub Demo
+### MQTT Pub/Sub Demo ###
 
 1. Deploy the paulc-MQTT application on GMWTUS
 2. Record the IP address
@@ -10,3 +10,7 @@
 8. Run the mqttsub python script to show that we have subscribed to the correct topic.
 
 The python script is leveraging paho-mqtt https://pypi.org/project/paho-mqtt/#installation
+
+Prerequisites
+
+pip install paho-mqtt
