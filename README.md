@@ -1,6 +1,6 @@
 # MQTT Pub/Sub Demo 
 
-![alt text](./Manufacturing Demo - Page 2.png "MQTT Demo")
+!(./diagram.png "MQTT Demo")
 
 1. Deploy the paulc-MQTT application on GMWTUS
 2. Record the IP address
