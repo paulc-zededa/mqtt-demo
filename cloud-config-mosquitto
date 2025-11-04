@@ -1,0 +1,7 @@
+#cloud-config
+write_files:
+- path: /mosquitto/config/mosquitto.conf
+permissions: "0777"
+content: |
+listener 1883
+allow_anonymous true
